@@ -1,0 +1,7 @@
+# Phase 1 runtime dependencies.
+# opencv-contrib-python includes the desktop GUI used by cv2.imshow and prepares
+# the project for the ArUco module in Phase 2. Do not install another OpenCV
+# wheel (opencv-python/headless) in the same environment.
+numpy>=2.0,<3.0
+opencv-contrib-python>=4.10,<5.0
+
